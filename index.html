@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denis Novik</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
     <!--Header start-->
@@ -29,10 +38,10 @@
                             <a href="#contacts" class="header__link js-scroll">Contacts</a>
                         </li>
                         <li class="header__lang">
-                            <div class="lang_header">
-                                <a href="#!" class="lang__item_header">RU</a>
-                                <p class="lang__item_header">|</p>
-                                <a href="#!" class="lang__item_header">ENG</a>
+                            <div class="lang">
+                                <a href="#!" class="lang__item">RU</a>
+                                <p class="lang__item">|</p>
+                                <a href="#!" class="lang__item">ENG</a>
                             </div>
                         </li>
                     </ul>
@@ -63,14 +72,16 @@
                             UX | UI designer <br> 24 years old, Minsk
                         </p>
                     </div>
-                    <div class="lang">
-                        <a href="#!" class="lang__item">RU</a>
-                        <p class="lang__item">|</p>
-                        <a href="#!" class="lang__item">ENG</a>
+                    <div class="home__lang">
+                        <div class="lang">
+                            <a href="#!" class="lang__item">RU</a>
+                            <p class="lang__item">|</p>
+                            <a href="#!" class="lang__item">ENG</a>
+                        </div>
                     </div>
                 </div>
-                <img src="./img/home-pic.jpg" alt="Denis Novik" class="home__photo">
-                <img src="./img/home-pic-mob.jpg" alt="Denis Novik" class="home__photo-mob">
+                <img src="./img/home-pic-min.jpg" alt="Denis Novik" class="home__photo">
+                <img src="./img/home-pic-mob-min.jpg" alt="Denis Novik" class="home__photo-mob">
             </div>
         </section>
 
@@ -105,24 +116,48 @@
                 </div>
                 <div class="skills__programs">
                     <figure class="skills__item">
-                        <img src="./img/svg/ps.svg" alt="Adobe Photoshop" class="skills__program-pic">
+                        <img src="./img/ps-min.jpg" alt="Adobe Photoshop" class="skills__program-pic">
                         <p class="skills__program-name">Adobe <br> Photoshop</p>
-                        <img src="./img/svg/stars4.jpg" alt="4 stars" class="skills__degree">
+                        <div class="skills__degree">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-empty.svg" alt="empty star" class="degree__star">
+                        </div>
                     </figure>
                     <figure class="skills__item">
-                        <img src="./img/svg/ai.svg" alt="Adobe Illustrator" class="skills__program-pic">
+                        <img src="./img/ai-min.jpg" alt="Adobe Illustrator" class="skills__program-pic">
                         <p class="skills__program-name">Adobe <br> Illustrator</p>
-                        <img src="./img/svg/stars3.jpg" alt="3 stars" class="skills__degree">
+                        <div class="skills__degree">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-empty.svg" alt="empty star" class="degree__star">
+                            <img src="./img/svg/star-empty.svg" alt="empty star" class="degree__star">
+                        </div>
                     </figure>
                     <figure class="skills__item">
-                        <img src="./img/svg/ae.svg" alt="Adobe After Effects" class="skills__program-pic">
+                        <img src="./img/ae-min.jpg" alt="Adobe After Effects" class="skills__program-pic">
                         <p class="skills__program-name">Adobe <br> After Effects</p>
-                        <img src="./img/svg/stars4.jpg" alt="4 stars" class="skills__degree">
+                        <div class="skills__degree">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-empty.svg" alt="empty star" class="degree__star">
+                        </div>
                     </figure>
                     <figure class="skills__item">
-                        <img src="./img/svg/figma.svg" alt="Figma" class="skills__program-pic">
+                        <img src="./img/figma-min.jpg" alt="Figma" class="skills__program-pic">
                         <p class="skills__program-name">Figma</p>
-                        <img src="./img/svg/stars4.jpg" alt="4 stars" class="skills__degree">
+                        <div class="skills__degree">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-filled.svg" alt="filled star" class="degree__star">
+                            <img src="./img/svg/star-empty.svg" alt="empty star" class="degree__star">
+                        </div>
                     </figure>
                 </div>
             </div>
@@ -132,19 +167,19 @@
             <div class="wrapper">
                 <h2 class="portfolio__title">Portfolio</h2>
                 <figure class="portfolio__item">
-                    <img src="./img/portfolio-pic1.jpg" alt="Online fashion store - Homepage" class="portfolio__pic">
+                    <img src="./img/portfolio-pic1-min.jpg" alt="Online fashion store - Homepage" class="portfolio__pic">
                     <figcaption class="portfolio__desc">
                         <a class="portfolio__desc" href="#!">Online fashion store - Homepage</a>
                     </figcaption>
                 </figure>
                 <figure class="portfolio__item">
-                    <img src="./img/portfolio-pic2.jpg" alt="Reebok Store - Concept" class="portfolio__pic">
+                    <img src="./img/portfolio-pic2-min.jpg" alt="Reebok Store - Concept" class="portfolio__pic">
                     <figcaption class="portfolio__desc">
                         <a class="portfolio__desc" href="#!">Reebok Store - Concept</a>
                     </figcaption>
                 </figure>
                 <figure class="portfolio__item">
-                    <img src="./img/portfolio-pic3.jpg" alt="Braun Landing Page - Concept" class="portfolio__pic">
+                    <img src="./img/portfolio-pic3-min.jpg" alt="Braun Landing Page - Concept" class="portfolio__pic">
                     <figcaption class="portfolio__desc">
                         <a class="portfolio__desc" href="#!">Braun Landing Page - Concept</a>
                     </figcaption>
@@ -184,7 +219,7 @@
         </p>
         <ul class="footer__links">
             <li class="footer__link">
-                <a class="footer__link" href="#">Linkedin,</a>
+                <a class="footer__link" href="#">LinkedIn,</a>
             </li>
             <li class="footer__link">
                 <a class="footer__link" href="#">Instagram,</a>
@@ -197,6 +232,6 @@
             </li>
         </ul>
     </footer>
-    <script src="./js/main.js"></script>
+    <script src="./js/main-es5.min.js"></script>
 </body>
 </html>
